@@ -76,3 +76,43 @@ body {
 .hero text {
   margin: 0;
 }
+
+.showcase-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  margin-bottom: 48px;
+  margin-top: 48px;
+}
+
+.showcase img {
+  height: 200px;
+  width: 200px;
+  border-radius: 14px;
+  border: #3882f6;
+}
+
+.showcase-container {
+  display: flex;
+  gap: 12px;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 48px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.showcase-container-1,
+.showcase-container-2,
+.showcase-container-3,
+.showcase-container-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  font-size: 14px;
+  font-style: italic;
+}
